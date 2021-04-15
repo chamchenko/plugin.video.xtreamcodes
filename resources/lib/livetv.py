@@ -81,7 +81,7 @@ def getLives(catid):
         chid = item['stream_id']
         iconc = item['stream_icon']
         url = LIVE_URL % (USER, PASSWORD, chid, vidType)
-        infoLabels = {"mediatype":"tv", "title":title}
+        infoLabels = {"mediatype":"video", "title":title}
         infoArt = {
                     "thumb": iconc,
                     "poster": iconc,
